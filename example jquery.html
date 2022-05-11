@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <table border="1">
+      <thead>
+          <tr>
+              <td>S/N</td>
+              <td>NAME</td>
+              <td>EMAIL</td>
+              <td>PASSWORD</td>
+             
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+            <td>1</td>
+            <td>OLUWATOBI</td>
+            <td>badatobi11@gmail.com</td>
+            <td>*****</td>
+          </tr>
+      </tbody>
+  </table><br><br>
+  <button id="hide">disable</button>
+  <button id="show">show</button>
+</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("#hide").hover(function(){
+    $("tbody").delay(1500).fadeOut();
+   alert("how are you");
+  });
+  $("#show").hover(function(){
+    $("tbody").delay(1500).fadeIn();
+  });
+});
+
+
+//  var boys = ["boy1", "boy2", "boy3","boy4"];
+//  var girls = ["girl1", "girl2", "girl3","girl4"];
+// //  demo1.innerHTML = fruits
+//  var children =boys + " " + girls 
+//  demo2.innerHTML = children + " " +"all are children" ;
+
+
+
+        // function clk() {
+          
+        // var coll = localStorage.getItem('signUp');
+        // var ok = JSON.parse(coll);
+        // for (let index = 0; index < ok.length; index++) {
+    
+        //  b.innerHTML += "<tr><td>"+ index + "</td><td>"+ ok[index].lastname + "</td><td>" + ok[index].firstname + 
+        //  "</td><td><button>delete</button></td><td>edit</td></tr>"
+                
+        //       } 
+        //       }
+        //       function del() {
+        //         var conv=JSON.stringify(arr);
+        //         localStorage.signUp=conv;
+        //       }
+
+              
+      
+       
+    </script>
+</body>
+</html>

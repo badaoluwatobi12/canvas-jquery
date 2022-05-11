@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <canvas id="myCanvas">
+   </canvas>
+ 
+  <!-- <br><br>
+    start<input type="text" placeholder="input x" id="x1">
+  <input type="text" placeholder="input y" id="x2"><br><br>
+  end<input type="text" placeholder="input x"id="y1">
+  <input type="text" placeholder="input y" id="y2"> 
+  <button onclick="clk()">click</button> -->
+
+
+
+<script>
+
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(100,50,40,0,2*Math.PI);
+ctx.stroke(); 
+
+
+
+
+// var canvas = document.getElementById('tut');
+
+// if (canvas.getContext) {
+//   var ctx = canvas.getContext('2d');
+//   // drawing code here
+// } else {
+//   // canvas-unsupported code here
+// }
+
+
+      // function clk() {
+      // var draw = document.getElementById("drw");
+      // pen = draw.getContext('2d');
+      // pen.moveTo(x1.value, x2.value); 
+      // pen.lineTo(y1.value, y2.value);         
+      // pen.stroke(); 
+      // }
+</script>      
+</body>
+</html>
